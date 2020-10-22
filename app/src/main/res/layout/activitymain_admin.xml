@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Dashboard_Admin">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="506dp"
+        android:layout_height="419dp"
+        android:src="@drawable/bg"
+        tools:layout_editor_absoluteX="-79dp"
+        tools:layout_editor_absoluteY="-42dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo2"
+        tools:layout_editor_absoluteX="-114dp"
+        tools:layout_editor_absoluteY="-262dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Dashboard"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Administrator"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/account"
+        android:layout_width="127dp"
+        android:layout_height="101dp"
+        android:background="@drawable/button_transparan"
+        android:src="@drawable/icon2"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="345dp"
+        android:layout_height="246dp"
+        android:src="@drawable/rectangle"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:layout_width="232dp"
+        android:layout_height="169dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Selamat Datang di Aplikasi Reminder Majlis Taklim"
+        android:textColor="#041d36"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_user"
+        android:layout_width="207dp"
+        android:layout_height="239dp"
+        android:background="@drawable/button_transparan"
+        android:src="@drawable/group3"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_majlistaklim"
+        android:layout_width="207dp"
+        android:layout_height="239dp"
+        android:background="@drawable/button_transparan"
+        android:src="@drawable/group4"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

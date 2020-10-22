@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg"
+        android:layout_width="534dp"
+        android:layout_height="274dp"
+        android:src="@drawable/bg1"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-92dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="376dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/acme"
+        android:text="Input Data Majlis Taklim"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:translationY="45dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Nama Acara"
+                android:textColor="#041d36"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:id="@+id/txt_namaacara"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#041d36"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Tema Acara"
+                android:textColor="#041d36"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="195dp" />
+
+    <EditText
+        android:id="@+id/txt_temaacara"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#041d36"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Tanggal Acara"
+                android:textColor="#041d36"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/txt_tglacara"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="date"
+        android:textColor="#041d36"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Waktu Acara"
+                android:textColor="#041d36"
+                android:textSize="14dp"
+                android:translationY="100dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="224dp" />
+
+    <EditText
+        android:id="@+id/txt_waktuacara"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="time"
+        android:textColor="#041d36"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Pengisi Acara"
+                android:textColor="#041d36"
+                android:textSize="14dp"
+                android:translationY="100dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/txt_pengisiacara"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#041d36"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Alamat Acara"
+                android:textColor="#041d36"
+                android:textSize="14dp"
+                android:translationY="100dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/txt_alamatacara"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#041d36"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Longitude"
+                android:textColor="#041d36"
+                android:textSize="14dp"
+                android:translationY="100dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="433dp" />
+
+    <EditText
+        android:id="@+id/txt_longitude"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#041d36"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Latitude"
+                android:textColor="#041d36"
+                android:textSize="14dp"
+                android:translationY="100dp"
+                tools:layout_editor_absoluteX="205dp"
+                tools:layout_editor_absoluteY="433dp" />
+
+    <EditText
+        android:id="@+id/txt_latitude"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#041d36"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+<Button
+android:id="@+id/btn_tambah"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/shape_button"
+android:fontFamily="sans-serif"
+android:text="ADD"
+android:textColor="@android:color/white"
+android:textSize="16dp"
+android:textStyle="bold"
+tools:layout_editor_absoluteX="25dp"
+tools:layout_editor_absoluteY="635dp" />
+
+<Button
+android:id="@+id/btn_reset"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/shape_button"
+android:fontFamily="sans-serif"
+android:text="RESET"
+android:textColor="@android:color/white"
+android:textSize="16dp"
+android:textStyle="bold"
+tools:layout_editor_absoluteX="150dp"
+tools:layout_editor_absoluteY="635dp" />
+
+<Button
+android:id="@+id/btn_edit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/shape_button"
+android:fontFamily="sans-serif"
+android:text="UPDATE"
+android:textColor="@android:color/white"
+android:textSize="16dp"
+android:textStyle="bold"
+tools:layout_editor_absoluteX="270dp"
+tools:layout_editor_absoluteY="635dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
